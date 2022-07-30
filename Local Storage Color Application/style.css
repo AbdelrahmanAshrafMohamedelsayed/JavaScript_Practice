@@ -1,0 +1,54 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 10px auto;
+}
+
+ul li:first-child {
+    background-color: red;
+}
+
+ul li:nth-child(2) {
+    background-color: green;
+}
+
+ul li:nth-child(3) {
+    background-color: blue;
+}
+
+ul li:nth-child(4) {
+    background-color: black;
+}
+
+ul li {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+ul li.active,
+ul li:hover {
+    opacity: 1;
+}
+
+.experiment {
+    max-width: 600px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: red;
+    transition: 0.3s;
+}
